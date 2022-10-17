@@ -5,7 +5,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-	return "Use http://[::]:[port]/rest/relogio/[hour]/[minute] para obter o angulo <br> porta 8080 <br> Use http://[::]:[port]/queries para ver todas as consultas"
+	return "Use http://[::]:[port]/rest/relogio/[hour]/[minute] 
+## para obter o angulo porta:5000  <br> Use http://[::]:[port]/queries para ver todas as consultas"
 
 @app.route('/rest/<string:petition>/<int:hour>/')
 @app.route('/rest/<string:petition>/<int:hour>/<int:minute>')
