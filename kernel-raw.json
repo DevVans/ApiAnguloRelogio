@@ -1,0 +1,7 @@
+{
+	"host":"localhost",
+	"database":"clock-db",
+	"user":"postgres",
+	"password":"root",
+	"port":"5433"
+}
